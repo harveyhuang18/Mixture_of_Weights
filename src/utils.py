@@ -160,7 +160,7 @@ class Gating_dataset(Dataset):
     def __init__(self, datasets):
         super().__init__()
         self.datasets = copy.deepcopy(datasets)
-        self.min_len = 10000
+        self.min_len = 100
         self.lens = [max(len(self.datasets[i]), self.min_len) for i in range(len(self.datasets))]
 
     def __len__(self):
