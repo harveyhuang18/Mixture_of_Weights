@@ -34,7 +34,7 @@ Run AdaMerging++ (Layerwise) w/ MoW-Merging
 
 ## Results
 
-Results will be saved in [logs](./logs). 
+Results will be saved in ./logs. 
 
 
 # Acknowledgements
