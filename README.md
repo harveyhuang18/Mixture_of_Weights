@@ -10,7 +10,9 @@ We realize controllable and dynamic model merging.
 
 Please follow [task_vectors](https://github.com/mlfoundations/task_vectors) to install the dependencies.
 
-Additionally, install transformers.
+Additionally, install transformers:
+
+> pip install transformers
 
 ### Checkpoints 
 
