@@ -1,5 +1,7 @@
 # Mixture of Weights
 
+This is the official implementation of our [TCSVT paper](https://doi.org/10.1109/TCSVT.2025.3544680): Dynamic Model Merging with Mixture of Weights.
+
 We realize controllable and dynamic model merging.
 
 <img src='./png/fig_framework.png'>
@@ -37,6 +39,17 @@ Run AdaMerging++ (Layerwise) w/ MoW-Merging
 ## Results
 
 Results will be saved in ./logs. 
+
+# Citation
+```bibtex
+@ARTICLE{ye2025mow,
+  author={Ye, Peng and Huang, Chenyu and Shen, Mingzhu and Chen, Tao and Huang, Yongqi and Ouyang, Wanli},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+  title={Dynamic Model Merging with Mixture of Weights}, 
+  year={2025},
+  keywords={Merging;Interference;Adaptation models;Computational modeling;Training;Vectors;Data models;Multitasking;Measurement;Costs;Dynamic Model Merging;Mixture of Weights;Multi-task Learning;Supervised Finetuning},
+  doi={10.1109/TCSVT.2025.3544680}}
+```
 
 
 # Acknowledgements
